@@ -26,3 +26,9 @@ navbarMenu.addEventListener('click', (event) => {
    const scrllTo = document.querySelector(link);
    scrllTo.scrollIntoView({ behavior: 'smooth'});
 });
+
+// Navbar toggle button
+const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+navbarToggleBtn.addEventListener('click', () => {
+    navbarMenu.classList.toggle('open');
+});
