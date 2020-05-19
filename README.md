@@ -1,2 +1,2 @@
-# porffolio
+#  portfolio
  Giyeol's portfolio
