@@ -140,9 +140,11 @@
       display: flex;
       justify-content: center;
   }
+  
   .navbar__menu__ul{
     display: flex;
   }
+
   .navbar__logo{
       font-size: var(--font-medium);
       font-weight: var(--weight-semi-bold);
